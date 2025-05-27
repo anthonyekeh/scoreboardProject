@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Merienda:wght@300..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="score-board">
+            <h3 class="team-side">HOME</h3>
+            <div class="scores">
+                <p class="points main-points" id="home-score">0</p>
+            </div>
+            <div class="add-point-btn">
+                <button class="points add-points" id="add-one-to-home-btn" onclick="addOneToHome()">+1</button>
+                <button class="points add-points" id="add-two-to-home-btn" onclick="addTwoToHome()">+2</button>
+                <button class="points add-points" id="add-three-to-home-btn" onclick="addThreeToHome()">+3</button>
+            </div>
+        </div>
+        <div class="score-board">
+            <h3 class="team-side">GUEST</h3>
+            <div class="scores">
+                <p class="points main-points" id="guest-score">0</p>
+            </div>
+            <div class="add-point-btn">
+                <button class="points add-points" id="add-one-to-guest-btn" onclick="addOneToGuest()">+1</button>
+                <button class="points add-points" id="add-two-to-guest-btn" onclick="addTwoToGuest()">+2</button>
+                <button class="points add-points" id="add-three-to-guest-btn" onclick="addThreeToGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

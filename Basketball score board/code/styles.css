@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Digital";
+    src: url(../fonts/digital.ttf);
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/basketball-court-2.webp);
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background: #1b244a;
+    width: 300px;
+    max-width: 350px;
+    margin: 50px auto 0;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.score-board {
+    /* border: 2px dotted blue; */
+    box-sizing: border-box;
+}
+
+.team-side {
+    margin-bottom: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #080001;
+    width: 90px;
+    height: 60px;
+    margin: 10px auto 15px;
+    border-radius: 4px;
+}
+
+.points {
+    font-family: "digital";
+}
+
+.main-points {
+    color: #a6354a;
+    font-size: xx-large;
+    text-shadow: 0 0 2px #dd556e;
+}
+
+.add-point-btn {
+    display: flex;
+    width: 90px;
+    margin: 0 auto 30px;
+    justify-content: space-between;
+}
+
+.add-points {
+    background: none;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+}
+
+button {
+    width: 26.5px;
+    height: 26.5px;
+    font-size: 70%;
+}
